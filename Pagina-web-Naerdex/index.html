@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naerdex | Elevate Your Stride</title>
+    <meta name="description" content="Naerdex - Calzado de alto rendimiento y estilo urbano. Descubre nuestra colección 2026 de sneakers, botas y calzado deportivo para hombre, mujer y kids. Envío gratis en compras superiores a $1500.">
+    <meta property="og:title" content="Naerdex | Elevate Your Stride">
+    <meta property="og:description" content="Calzado de alto rendimiento y estilo urbano. Colección 2026 disponible.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.pexels.com/photos/18155790/pexels-photo-18155790.jpeg?auto=compress&cs=tinysrgb&w=1200">
+    <meta property="og:url" content="https://naerdex.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Naerdex | Elevate Your Stride">
+    <meta name="twitter:description" content="Calzado de alto rendimiento y estilo urbano. Colección 2026 disponible.">
+    <meta name="twitter:image" content="https://images.pexels.com/photos/18155790/pexels-photo-18155790.jpeg?auto=compress&cs=tinysrgb&w=1200">
+    <link rel="canonical" href="https://naerdex.com">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111111'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial,Helvetica,sans-serif' font-size='42' font-weight='900' fill='white'%3EN%3C/text%3E%3C/svg%3E">
+    <link rel="preload" as="image" href="https://images.pexels.com/photos/18155790/pexels-photo-18155790.jpeg?auto=compress&cs=tinysrgb&w=1600">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Naerdex",
+        "url": "https://naerdex.com",
+        "description": "Calzado de alto rendimiento y estilo urbano."
+    }
+    </script>
+</head>
+<body>
+
+    <div class="page-transition-overlay" id="page-transition"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">NAERDEX</a>
+            <nav class="nav" id="nav" role="navigation" aria-label="Navegación principal">
+                <a href="novedades.html" class="nav-link">Novedades</a>
+                <a href="hombre.html" class="nav-link">Hombre</a>
+                <a href="mujer.html" class="nav-link">Mujer</a>
+                <a href="ofertas.html" class="nav-link sale-link">Ofertas</a>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-btn search-btn" aria-label="Buscar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <button class="icon-btn mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav">
+                    <svg class="menu-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    <svg class="close-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobile-overlay"></div>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="search-overlay" role="dialog" aria-label="Buscar productos">
+        <button class="search-close" aria-label="Cerrar búsqueda">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+        <input type="text" class="search-input" placeholder="Buscar productos, categorías..." autocomplete="off">
+        <div class="search-results"></div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="top" style="background-image: url('https://images.pexels.com/photos/18155790/pexels-photo-18155790.jpeg?auto=compress&cs=tinysrgb&w=1600')">
+        <div class="container hero-inner">
+            <div class="hero-text fade-in">
+                <span class="hero-label">Colección 2026</span>
+                <h1 class="hero-title">Pisa<br>Fuerte.</h1>
+                <div class="hero-line"></div>
+                <p class="hero-description">Ingeniería y diseño en cada modelo. Comodidad sin compromisos para quienes no se detienen.</p>
+                <a href="#shop" class="hero-link">Explorar la colección →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorías -->
+    <section class="categories-section" id="categories">
+        <div class="container">
+            <div class="categories-grid fade-in">
+                <a href="hombre.html" class="cat-card cat-card-large" aria-label="Ver productos para hombre">
+                    <div class="cat-card-image">
+                        <img src="https://images.pexels.com/photos/8248705/pexels-photo-8248705.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Calzado para hombre" loading="lazy">
+                    </div>
+                    <div class="cat-card-info">
+                        <span class="cat-card-label">Hombre</span>
+                        <span class="cat-card-link">Ver todo →</span>
+                    </div>
+                </a>
+                <a href="mujer.html" class="cat-card cat-card-tall" aria-label="Ver productos para mujer">
+                    <div class="cat-card-image">
+                        <img src="https://images.pexels.com/photos/4271563/pexels-photo-4271563.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Calzado para mujer" loading="lazy">
+                    </div>
+                    <div class="cat-card-info">
+                        <span class="cat-card-label">Mujer</span>
+                        <span class="cat-card-link">Ver todo →</span>
+                    </div>
+                </a>
+            </div>
+            <a href="novedades.html" class="cat-banner fade-in" aria-label="Ver novedades">
+                <div class="cat-banner-image">
+                    <img src="https://images.pexels.com/photos/26837733/pexels-photo-26837733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Novedades Naerdex" loading="lazy">
+                </div>
+                <div class="cat-banner-info">
+                    <span class="cat-banner-label">Novedades</span>
+                    <span class="cat-banner-link">Descubrir →</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Productos Destacados -->
+    <main class="container shop-section" id="shop">
+        <div class="shop-header">
+            <div class="section-header-text">
+                <span class="section-label">Destacados</span>
+                <h2 class="section-title">Lo Más Nuevo</h2>
+            </div>
+            <div class="filters" id="filter-container">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="sneaker">Sneakers</button>
+                <button class="filter-btn" data-filter="bota">Botas</button>
+            </div>
+            <div class="display-count-wrap">
+                <span class="display-count-label">Mostrar:</span>
+                <select class="display-count-select" id="display-count">
+                    <option value="12" selected>12</option>
+                    <option value="24">24</option>
+                    <option value="48">48</option>
+                    <option value="all">Todos</option>
+                </select>
+            </div>
+        </div>
+        <div class="product-grid" id="product-list"></div>
+        <div class="price-filters" id="price-filter-container">
+            <button class="price-filter-btn active" data-price="all">Todos los precios</button>
+            <button class="price-filter-btn" data-price="under1500">Menos de $1,500</button>
+            <button class="price-filter-btn" data-price="1500-2500">$1,500 - $2,500</button>
+            <button class="price-filter-btn" data-price="over2500">Más de $2,500</button>
+        </div>
+    </main>
+
+    <!-- Beneficios -->
+    <section class="benefits-inline">
+        <div class="container">
+            <div class="benefits-row fade-in">
+                <div class="benefit-col">
+                    <h4>Envío Gratis</h4>
+                    <p>En pedidos superiores a $1500</p>
+                </div>
+                <div class="benefit-separator"></div>
+                <div class="benefit-col">
+                    <h4>Pago Seguro</h4>
+                    <p>100% garantizado y cifrado</p>
+                </div>
+                <div class="benefit-separator"></div>
+                <div class="benefit-col">
+                    <h4>30 Días</h4>
+                    <p>Para cambios y devoluciones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container newsletter-content fade-in">
+            <span class="section-label">Newsletter</span>
+            <h2 class="section-title">Sin Ruido.<br>Solo Ofertas.</h2>
+            <p class="section-subtitle">Lanzamientos exclusivas y descuentos directos a tu correo.</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="tu@email.com" required aria-label="Correo electrónico">
+                <button type="submit">Suscribir</button>
+            </form>
+            <p id="newsletter-msg"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">NAERDEX</a>
+                    <p>Calzado de alto rendimiento y estilo urbano. Diseñado para quienes no se detienen.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                        <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+                        <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Tienda</h4>
+                    <a href="hombre.html">Hombre</a>
+                    <a href="mujer.html">Mujer</a>
+                    <a href="novedades.html">Novedades</a>
+                    <a href="ofertas.html">Ofertas</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Empresa</h4>
+                    <a href="#">Sobre Nosotros</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Tiendas</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Soporte</h4>
+                    <a href="#">FAQs</a>
+                    <a href="#">Envíos</a>
+                    <a href="#">Tallas</a>
+                    <a href="#">Devoluciones</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Naerdex. Todos los derechos reservados.</span>
+                <div><a href="#">Privacidad</a> &middot; <a href="#">Términos</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
