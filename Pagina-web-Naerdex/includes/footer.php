@@ -33,17 +33,17 @@
                 </div>
                 <div class="footer-links">
                     <h4>Empresa</h4>
-                    <a href="#">Sobre Nosotros</a>
-                    <a href="#">Contacto</a>
-                    <a href="#">Tiendas</a>
-                    <a href="#">Blog</a>
+                    <a href="sobre-nosotros.php">Sobre Nosotros</a>
+                    <a href="contacto.php">Contacto</a>
+                    <a href="tiendas.php">Tiendas</a>
+                    <a href="blog.php">Blog</a>
                 </div>
                 <div class="footer-links">
                     <h4>Soporte</h4>
-                    <a href="#">FAQs</a>
-                    <a href="#">Envíos</a>
-                    <a href="#">Tallas</a>
-                    <a href="#">Devoluciones</a>
+                    <a href="faqs.php">FAQs</a>
+                    <a href="envios.php">Envíos</a>
+                    <a href="tallas.php">Tallas</a>
+                    <a href="devoluciones.php">Devoluciones</a>
                 </div>
             </div>
             <div class="footer-bottom">
