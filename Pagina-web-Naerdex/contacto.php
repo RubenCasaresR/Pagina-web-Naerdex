@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto | Naerdex</title>
-    <meta name="description" content="Ponte en contacto con Naerdex. Estamos aquí para ayudarte con cualquier consulta, sugerencia o comentario.">
+    <meta name="description" content="Contacta con Naerdex. Somos el puente entre compradores y vendedores de calzado. Estamos aquí para ayudarte con cualquier consulta.">
     <meta property="og:title" content="Contacto | Naerdex">
-    <meta property="og:description" content="Ponte en contacto con Naerdex.">
+    <meta property="og:description" content="Contacta con Naerdex. Somos el puente entre compradores y vendedores de calzado. Estamos aquí para ayudarte.">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://naerdex.com/contacto.html">
+    <meta property="og:image" content="https://images.pexels.com/photos/18155790/pexels-photo-18155790.jpeg?auto=compress&cs=tinysrgb&w=1200">
+    <meta property="og:url" content="https://naerdex.com/contacto.php">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contacto | Naerdex">
+    <meta name="twitter:description" content="Contacta con Naerdex. Somos el puente entre compradores y vendedores de calzado.">
+    <meta name="twitter:image" content="https://images.pexels.com/photos/18155790/pexels-photo-18155790.jpeg?auto=compress&cs=tinysrgb&w=1200">
+    <link rel="canonical" href="https://naerdex.com/contacto.php">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111111'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial,Helvetica,sans-serif' font-size='42' font-weight='900' fill='white'%3EN%3C/text%3E%3C/svg%3E">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
